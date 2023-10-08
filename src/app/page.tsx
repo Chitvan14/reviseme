@@ -28,10 +28,10 @@ export default function Home() {
           <div className="w-full flex justify-start items-center overflow-auto">
             {/* Your content */}
             <div className="p-6">
-              <ProductCard />
+              <ProductCard src={["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"]} name={""} />
             </div>
             <div className="p-6">
-              <ProductCard />{" "}
+              <ProductCard src={["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"]} name={""} />{" "}
             </div>
           </div>
         </div>
@@ -44,10 +44,10 @@ export default function Home() {
           <div className="w-full flex justify-start items-center overflow-auto">
             {/* Your content */}
             <div className="p-6">
-              <ProductCard />
+              <ProductCard src={["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"]} name={""} />
             </div>
             <div className="p-6">
-              <ProductCard />{" "}
+              <ProductCard src={["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"]} name={""} />{" "}
             </div>
           </div>
         </div>

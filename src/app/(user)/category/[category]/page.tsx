@@ -2,6 +2,7 @@
 import { useState } from "react";
 import  Carousel  from "@/components/carousal";
 import { ProductDisplay } from "@/components/productDisplay";
+import { ProductCard } from "@/components/productCard";
 export default function BrandPage() {
 
   return (
@@ -14,7 +15,7 @@ export default function BrandPage() {
         image={[{imgURL:"https://assets.hyugalife.com/banner/feature/1440-x-360-28__1.jpg"}]}
         classes="aspect-9/16 rounded"
       />
-     <ProductDisplay/>
+              <ProductCard src={["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"]} name={""} />
     </div>
   );
 }

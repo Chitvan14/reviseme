@@ -1,7 +1,7 @@
-// const productList = {
-//   src: ["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"],
-//   name: "",
-// };
+const productList = {
+  src: ["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"],
+  name: "",
+};
 
 // const testHyugalifeProducts=[
 //     {     "min_qty": 0,

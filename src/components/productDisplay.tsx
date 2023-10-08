@@ -345,8 +345,9 @@ export function ProductDisplay(){
 
               {/* Product grid */}
               <div className="lg:col-span-3">
-                {/* Your content */} <ProductCard />
-                <ProductCard />
+                {/* Your content */}               <ProductCard src={["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"]} name={""} />
+
+                <ProductCard src={["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"]} name={""} />
               </div>
             </div>
           </section>
