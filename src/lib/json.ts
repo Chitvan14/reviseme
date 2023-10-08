@@ -1,0 +1,534 @@
+// const productList = {
+//   src: ["https://meltingpot-food.in/wp-content/uploads/2021/05/PaniPuriConcentrate_front.jpg"],
+//   name: "",
+// };
+
+// const testHyugalifeProducts=[
+//     {     "min_qty": 0,
+//     "is_in_stock": true
+// },
+// "dietary_preference": "Veg",
+// "usp": [
+//     "75 Amlas Blend & Giloy",
+//     "Cold-pressed",
+//     "90% RDA of Vitamin C"
+// ],
+// "item_weight": "1L",
+// "flavour": "",
+// "badges": "",
+// "deal_of_the_day": false,
+// "is_hl_verified": "0",
+// "special_price": "199.000000",
+// "special_from_date_formatted": "2023-10-07 11:10:00",
+// "special_to_date_formatted": "2023-10-08 12:00:00"
+// },
+// { "id": "5551",
+// "name": "Fitspire Advanced Isolate Gold Whey Protein - Cookie & Cream",
+// "sku": "HPMK42Z5",
+// "status": "1",
+// "price": "3999.000000",
+// "type": "configurable",
+// "slug": "fitspire-advanced-isolate-gold-whey-protein-cookie-cream",
+// "image": "/8/9/8908012926153-1_ws6kmrsg5jwjyj3g.jpg",
+// "media_gallery": [
+//     {
+//         "file": "/8/9/8908012926153-1_ws6kmrsg5jwjyj3g.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "1",
+//         "disabled": "0",
+//         "types": [
+//             "image",
+//             "small_image",
+//             "thumbnail"
+//         ],
+//         "id": "29417"
+//     },
+//     {
+//         "file": "/8/9/8908012926153-2_gxokhu7xxzpaelkc.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "2",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29418"
+//     },
+//     {
+//         "file": "/8/9/8908012926153-3_1a53k6zpozgimadn.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "3",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29419"
+//     },
+//     {
+//         "file": "/8/9/8908012926153-4_oaldbwo6tlv8pkyi.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "4",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29420"
+//     },
+//     {
+//         "file": "/8/9/8908012926153-5_ijwgmwuztmyqnbq2.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "5",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29421"
+//     },
+//     {
+//         "file": "/8/9/8908012926153-6_qummmc7tu7zd5s5t.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "6",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29422"
+//     },
+//     {
+//         "file": "/8/9/8908012926153-7-min_mmycmyqsagutl3ui.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "7",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29423"
+//     },
+//     {
+//         "file": "/8/9/8908012926368-1_d6v1zhuethw1yc6j.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "8",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29424"
+//     },
+//     {
+//         "file": "/8/9/8908012926368-2_zi5lrsydarxbkwdo.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "9",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29425"
+//     },
+//     {
+//         "file": "/8/9/8908012926368-3_3xd2w3ju2musx4ed.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "10",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29426"
+//     },
+//     {
+//         "file": "/8/9/8908012926368-4_j2tydqp1o4563vi4.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "11",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29427"
+//     },
+//     {
+//         "file": "/8/9/8908012926368-5_jpzm3ftg9rulvj7q.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "12",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29428"
+//     },
+//     {
+//         "file": "/8/9/8908012926368-6_be8dsl87ze1hgsrv.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "13",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29429"
+//     },
+//     {
+//         "file": "/8/9/8908012926368-7-min_9giktu95rinrmfdj.jpg",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "14",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "29430"
+//     },
+//     {
+//         "file": "/f/i/fitspire_vgc0mrjcxudoscwb.png",
+//         "media_type": "image",
+//         "entity_id": "5551",
+//         "label": null,
+//         "position": "15",
+//         "disabled": "0",
+//         "types": [],
+//         "id": "39850"
+//     }
+// ],
+// "ratings": {
+//     "count": "0",
+//     "stars": "0.0"
+// },
+// "visibility": "4",
+// "stock_info": {
+//     "qty": 0,
+//     "min_qty": 0,
+//     "min_sale_qty": 1,
+//     "max_sale_qty": 10000,
+//     "is_in_stock": true
+// },
+// "created_at": "2023-01-19 12:45:46",
+// "updated_at": "2023-10-07 04:31:06",
+// "description": "Fitspire Whey has ingredients that are known to help increase muscle protein synthesis and maintain lean muscle mass.It is enriched with digezyme that are a combination of digestive enzymes, which are known to aid digestion of nutrients such as Protein, Carbohydrates, Fat and Fiber. <br><br>\r\n\r\nWhey protein is a blend of proteins with essential amino acids that are absorbed quickly and serve as a building block for increased muscle growth. Easy to digest Contains lactase that is can be consumed by lactose intolerant people, No added sugar 100% Vegetarian.",
+// "short_description": "",
+// "how_to_use": "",
+// "ingredients": "Whey Protein Isolate",
+// "product_information": [
+//     {
+//         "label": "Dietary Preference",
+//         "value": "Veg",
+//         "attribute_code": "dietary_preference"
+//     },
+//     {
+//         "label": "Form",
+//         "value": "Powder",
+//         "attribute_code": "form"
+//     },
+//     {
+//         "label": "Maximum Shelf Life",
+//         "value": "24 Months",
+//         "attribute_code": "maximum_shelf_life"
+//     },
+//     {
+//         "label": "Number of servings",
+//         "value": "30",
+//         "attribute_code": "number_of_servings"
+//     },
+//     {
+//         "label": "Serving Size",
+//         "value": "1 Scoop",
+//         "attribute_code": "serving_size"
+//     }
+// ],
+// "additional_information": [
+//     {
+//         "label": "FSSAI Number",
+//         "value": "10019011006792",
+//         "attribute_code": "fssai_number"
+//     },
+//     {
+//         "label": "Manufacturer",
+//         "value": "Fitspire",
+//         "attribute_code": "manufacturer"
+//     },
+//     {
+//         "label": "Type of Packaging",
+//         "value": "Carton",
+//         "attribute_code": "type_of_packaging"
+//     }
+// ],
+// "seo": {
+//     "meta_title": "Shop Fitspire Advanced Isolate Gold Whey Protein - Cookie & Cream ",
+//     "meta_keywords": "",
+//     "meta_description": "Buy essential & the best Fitspire Advanced Isolate Gold Whey Protein - Cookie & Cream online at lowest price at HyugaLife. Tap on the link to buy!"
+// },
+// "usp": [
+//     "Whey Protein Blend 24g/scoop",
+//     "BCAA & Glutamic acid",
+//     "Added Digezyme"
+// ],
+// "primary_benefits": "Muscle Gain",
+// "item_weight": "",
+// "flavour": "Cookies & Cream",
+// "badges": "",
+// "deal_of_the_day": false,
+// "primary_l1_category": {
+//     "name": "Sports Nutrition",
+//     "slug": "sports-nutrition"
+// },
+// "primary_l2_category": {
+//     "name": "Whey protein",
+//     "slug": "whey-protein"
+// },
+// "category_ids": [
+//     "90",
+//     "41",
+//     "257",
+//     "42",
+//     "550",
+//     "558",
+//     "582",
+//     "723",
+//     "819",
+//     "151",
+//     "1043",
+//     "925"
+// ],
+// "category_names": [
+//     "Benefits",
+//     "Sports Nutrition",
+//     "Muscle Gain",
+//     "Whey protein",
+//     "Payroll Party sale",
+//     "Sports Nutrition",
+//     "Whey Protein Powder",
+//     "Protein Isolate powder",
+//     "Muscle Gain & Recovery",
+//     "Fitspire",
+//     "Muscle Strength",
+//     "Limited Time Deals"
+// ],
+// "category_tree": {
+//     "41": "Sports Nutrition",
+//     "42": "Sports Nutrition/Whey protein",
+//     "550": "Payroll Party sale",
+//     "558": "Payroll Party sale/Sports Nutrition",
+//     "582": "CP/Whey Protein Powder",
+//     "723": "CP/Protein Isolate powder",
+//     "819": "Muscle Gain & Recovery"
+// },
+// "configurable_product_links": [
+//     "5548",
+//     "5547"
+// ],
+// "configurable_product_options": [
+//     {
+//         "attribute_id": "144",
+//         "label": "Weight",
+//         "position": "0",
+//         "product_id": "5551",
+//         "values": {
+//             "minimum_price": "3999.000000",
+//             "minimum_special_price": "2424.000000",
+//             "variants": [
+//                 {
+//                     "sku": "HVAK41F6",
+//                     "product_id": "5548",
+//                     "attribute_code": "item_weight",
+//                     "value_index": "183",
+//                     "super_attribute_label": "Weight",
+//                     "default_title": "2kg",
+//                     "option_title": "2kg",
+//                     "option_id": "144",
+//                     "stock_status": true,
+//                     "name": "Fitspire 100% Gold Advanced Isolate Whey Protein - Cookie and Cream, 2 kg/4.4 lb | 33 gm Serving Size | 24 gm Protein | 4.3 gm BCAA | Gluten & cholesterol Free | Powder Supplement | - 60 Servings",
+//                     "slug": "fitspire-advanced-isolate-gold-whey-protein-cookie-cream-2-kg",
+//                     "media_gallery": [
+//                         {
+//                             "file": "/h/v/hvak41f6.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5548",
+//                             "label": null,
+//                             "position": "7",
+//                             "disabled": "0",
+//                             "types": [
+//                                 "image",
+//                                 "small_image",
+//                                 "thumbnail"
+//                             ],
+//                             "id": "33251"
+//                         },
+//                         {
+//                             "file": "/h/v/hvak41f6-1.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5548",
+//                             "label": null,
+//                             "position": "8",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33252"
+//                         },
+//                         {
+//                             "file": "/h/v/hvak41f6-3.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5548",
+//                             "label": null,
+//                             "position": "9",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33253"
+//                         },
+//                         {
+//                             "file": "/h/v/hvak41f6-4.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5548",
+//                             "label": null,
+//                             "position": "10",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33254"
+//                         },
+//                         {
+//                             "file": "/h/v/hvak41f6-5.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5548",
+//                             "label": null,
+//                             "position": "11",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33255"
+//                         },
+//                         {
+//                             "file": "/f/i/fitspire_vgc0mrjcxudoscwb.png",
+//                             "media_type": "image",
+//                             "entity_id": "5548",
+//                             "label": null,
+//                             "position": "12",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "39847"
+//                         }
+//                     ],
+//                     "image": "/h/v/hvak41f6.jpg",
+//                     "price": "6999.000000",
+//                     "is_hl_verified": "0",
+//                     "special_price": "4461.000000",
+//                     "special_from_date_formatted": "2023-10-07 11:00:00",
+//                     "special_to_date_formatted": "2023-10-08 11:00:00"
+//                 },
+//                 {
+//                     "sku": "HVXL97X7",
+//                     "product_id": "5547",
+//                     "attribute_code": "item_weight",
+//                     "value_index": "146",
+//                     "super_attribute_label": "Weight",
+//                     "default_title": "1kg",
+//                     "option_title": "1kg",
+//                     "option_id": "144",
+//                     "stock_status": true,
+//                     "name": "Fitspire 100% Gold Advanced Isolate Whey Protein - Cookie & Cream, 1kg / 2.2lb with 24gm Protein, 4.3gm BCAA, Low Carbs for Faster Recovery & Muscle Building (30 Servings with shaker)",
+//                     "slug": "fitspire-advanced-isolate-gold-whey-protein-cookie-cream-1-kg",
+//                     "media_gallery": [
+//                         {
+//                             "file": "/1/_/1_21.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5547",
+//                             "label": null,
+//                             "position": "12",
+//                             "disabled": "0",
+//                             "types": [
+//                                 "image",
+//                                 "small_image",
+//                                 "thumbnail"
+//                             ],
+//                             "id": "33157"
+//                         },
+//                         {
+//                             "file": "/2/_/2_12.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5547",
+//                             "label": null,
+//                             "position": "13",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33158"
+//                         },
+//                         {
+//                             "file": "/3/_/3_12.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5547",
+//                             "label": null,
+//                             "position": "14",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33159"
+//                         },
+//                         {
+//                             "file": "/5/_/5_7.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5547",
+//                             "label": null,
+//                             "position": "15",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33160"
+//                         },
+//                         {
+//                             "file": "/6/_/6_7.jpg",
+//                             "media_type": "image",
+//                             "entity_id": "5547",
+//                             "label": null,
+//                             "position": "16",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "33161"
+//                         },
+//                         {
+//                             "file": "/f/i/fitspire.png",
+//                             "media_type": "image",
+//                             "entity_id": "5547",
+//                             "label": null,
+//                             "position": "17",
+//                             "disabled": "0",
+//                             "types": [],
+//                             "id": "39828"
+//                         }
+//                     ],
+//                     "image": "/1/_/1_21.jpg",
+//                     "price": "3999.000000",
+//                     "is_hl_verified": "0",
+//                     "special_price": "2424.000000",
+//                     "special_from_date_formatted": "",
+//                     "special_to_date_formatted": ""
+//                 }
+//             ]
+//         }
+//     }
+// ],
+// "special_price": "2424.000000",
+// "default_variant_id": 5547,
+// "brand": {
+//     "label": "Fitspire",
+//     "value": "fitspire"
+// },
+// "content": [],
+// "custom_attributes": [
+//     {
+//         "label": "Brand",
+//         "value": "Fitspire",
+//         "attribute_code": "brand"
+//     },
+//     {
+//         "label": "Concern",
+//         "value": "Muscle Gain",
+//         "attribute_code": "concern"
+//     },
+//     {
+//         "label": "Dietary Preference",
+//         "value": "Veg",
+//         "attribute_code": "dietary_preference"
+//     },
+//     {
+//         "label": "SEO Data",
+//         "value": "Sports nutrition is a key component for athletes who want to optimize their performance and achieve their fitness goals. Whey protein is a popular supplement used to support muscle recovery and strength. It is a fast-digesting protein that contains all the essential amino acids, making it an ideal supplement for muscle recovery and growth. Whey protein supplementation can help athletes reduce muscle soreness and support muscle repair after intense workouts. It also contains high levels of branched-chain amino acids (BCAAs), which are essential for protein synthesis and muscle growth. BCAAs play a crucial role in supporting muscle strength and endurance during exercise. Athletes who consume whey protein can benefit from increased muscle strength and endurance, faster muscle recovery, and reduced muscle damage. However, it's essential to ensure that the whey protein supplement is of high quality and consumed as part of a balanced diet. Athletes should work with a sports nutritionist or healthcare provider to determine the appropriate amount of whey protein supplement for their individual needs. Overall, whey protein is an effective supplement for athletes looking to support muscle recovery and strength, with BCAAs providing valuable support to improve muscle endurance and performance.",
+//         "attribute_code": "seo_data"
+//     },
+//     {
+//         "label": "Sold By",
+//         "value": "Hyuga Ecommerce Ventures Private Limited",
+//         "attribute_code": "sold_by"
+//     }
+// ]
+// }}
+// ]
